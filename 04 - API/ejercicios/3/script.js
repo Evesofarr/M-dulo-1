@@ -19,11 +19,17 @@ btn.addEventListener("click", function () {
             response.date = fecha;
 
             img = document.createElement("img")
+            fechatitu = document.createElement("h1")
+            expla = document.createElement("p")
 
             img.src = response.url
+            fechatitu.textContent = response.date + " " + response.title
+            expla.textContent = response.explanation
 
 
             div.appendChild(img)
+            div.appendChild(fechatitu)
+            div.appendChild(expla)
 
             console.log(response);
 
