@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#back-color{
+    background-color: blue;
+    height: 1000px;
+    background-image: url('https://media.istockphoto.com/id/1216390575/es/foto/perro-programador-profesional-serio-trabajando-en-el-proyecto-en-l%C3%ADnea.jpg?s=2048x2048&w=is&k=20&c=ALucZUzCYDeTJBqY6IUevs4DgAmBDSJre_BJKK9bnJY=');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+/* a:visited{
+    color:darkgreen;
+} */
+
+a:hover {
+    color:goldenrod;
+}
+
+p:first-line {
+    color: red;
+    font-size: 30px;
+}
+
+p:first-letter {
+    color:orange;
+    font-size: 50px;
+}
+
+
+
+
+
+@media(min-width:601px) and (max-width: 749px) {
+    p::first-line {
+        color:aquamarine;
+    }
+
+    div {
+        display:flex;
+    }
+}
+
+@media(min-width:750px){
+    p {
+        font-size: 50px;
+    }
+
+    p::first-line{
+        font-size: 50px;
+    }
+
+    p::first-letter {
+        font-size: 100px;
+    }
+}

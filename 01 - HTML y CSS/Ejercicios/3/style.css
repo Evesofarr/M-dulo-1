@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    padding: 0;
+}
+div{
+    background-image: url(../saturn_icon_182816.ico);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+}

@@ -1,0 +1,17 @@
+/* Crea dos páginas con su cabecera, contenido y pie de página. Haz el título de la cabecera de un color, el fondo del contenido de otro y el texto del pie de página de un tercer color, pero usa solamente una hoja de estilos para las dos páginas.*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    padding: 0;
+    font-size: 30px;
+}
+header h1{
+    color: blueviolet;
+}
+
+div p{
+    background-color: lightslategrey;
+}
+footer p {
+    color: orange;
+}

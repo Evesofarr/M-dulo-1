@@ -1,0 +1,19 @@
+/* Haz una página en el que hay una lista en la cabecera, otra en el contenido y otra en el pie de página. Dales color de texto diferente a cada una de las listas. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+header {
+    color: blueviolet;
+}
+
+div {
+    color: chocolate;
+}
+
+footer {
+    color: red;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <input
+        type="text"
+        name="name"
+        required
+        id="name"
+        placeholder="Escribe tu nombre"
+      />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Escribe tu contraseña"
+      />
+      <input type="number" id="age" placeholder="Escribe tu edad" />
+      <input type="email" name="email" id="email" placeholder="email" />
+      <textarea
+        id="textarea"
+        row="50"
+        cols="20"
+        placeholder="danos tu opinión"
+      ></textarea>
+      <input type="radio" name="car" value="Audi" /><label>Audi</label>
+      <input type="radio" name="car" value="Mazda" /><label>Mazda</label>
+      <input id="maths" type="checkbox" name="maths" value="Maths" />
+      <label for="maths">Maths</label>
+      <input
+        id="science"
+        type="checkbox"
+        name="science"
+        value="Science"
+      /><label for="science">Science</label>
+      <select name="Youtubers">
+        <option value="" selected disabled>Selecciona tu youtuber</option>
+        <option value="Auronplay">Auronplay</option>
+        <option value="ElRubius">ElRubius</option>
+        <option value="Ibai">Ibai</option>
+
+        <!-- envio de formulario -->
+      </select>
+      <input type="submit" value="Enviar" />
+      <button type="submit">Enviame</button>
+    </form>
+  </body>
+</html>
